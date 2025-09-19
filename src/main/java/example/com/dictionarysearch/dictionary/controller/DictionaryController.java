@@ -41,7 +41,8 @@ public class DictionaryController {
                 "page", page,
                 "pageSize", pageSize,
                 "sortBy", sortBy,
-                "results", results);
+                "results", results,
+                "source", "Diese Daten stammen aus der <a href=\"https://www.dwds.de/lemma/list\" target=\"_blank\">DWDS-Lemmadatenbank</a> [Author: Digitales Wörterbuch der deutschen Sprache (DWDS)]. Die Datenbank steht unter der <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.de\" target=\"_blank\">Creative Commons BY-SA 4.0</a> Lizenz.");
 
         return ResponseEntity.ok(response);
     }
